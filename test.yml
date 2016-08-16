@@ -1,0 +1,8 @@
+---
+- name: Debug the Group Vars 
+  hosts: local
+  connection: local
+  vars:
+    item: First
+  roles :
+  - debugging
